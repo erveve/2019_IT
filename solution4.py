@@ -10,7 +10,7 @@ def get_pareto_indices(X):
         for j, x2 in enumerate(X):
             if (i!=j and (np.prod(x2>=x1))):
                 break
-            print(j)
+            
             if j==(N-1):
                 inds = np.append(inds,[i])
     
